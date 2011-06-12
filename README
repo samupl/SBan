@@ -1,8 +1,7 @@
-This is my version of automated log parsing and banning  script. It does mostly the same as familiar fail2ban script, but has some major advantages.
+SBan is an automated log parsing and banning  script. It does mostly the same as familiar fail2ban script, but has some other features which I haven't found in fail2ban
 
 It uses a separate rules file, in which you can declare the file, the regexp, the time (count) settings, and the command used to ban the IP, person, or whatever.
 
-You can read more about the rules file in the sample rules file, sban-rules.example.conf
+You can read more about the rules file in the sample rules file provided with the script
 
-The script is still at developement, so any suggestions and bug 
-commisions will be appreciated.
+The script is still at developement, so any suggestions and bug commisions will be appreciated.
