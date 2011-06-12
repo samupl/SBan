@@ -3,7 +3,7 @@
 #  ----------------------------------------------------------
 #  
 #   SBan v 0.1
-#   Author: samu (s@samu.pl)
+#   Author: Jakub 'samu' Szafrański (s@samu.pl)
 #           irc: #main @ irc.pirc.pl
 #
 #  Licence:
@@ -12,20 +12,14 @@
 #
 #  ----------------------------------------------------------
 #
-#  This is my version of automated log parsing and banning 
-#  script. It does mostly the same as familiar fail2ban
-#  script, but has some major advantages.
+#  The latest version will be always available at:
+#  https://github.com/samaelszafran/SBan
 #
-#  It uses a separate rules file, in which you can declare
-#  the file, the regexp, the time (count) settings, and the
-#  command used to ban the IP, person, or whatever.
+#  ----------------------------------------------------------
 #
-#  You can read more about the rules file in the sample
-#  rules file, sban-rules.example.conf
-# 
-#  You can change the location of the rules file by changing 
+#  You can change the location of the rules file by changing
 #  the _rulesfile variable below
-#
+
 
 _rulesfile = "/usr/local/etc/sban-rules.conf"
 
